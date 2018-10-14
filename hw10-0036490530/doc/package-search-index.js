@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"hr.fer.zemris.java.gui.calc"},{"l":"hr.fer.zemris.java.gui.charts"},{"l":"hr.fer.zemris.java.gui.layouts"},{"l":"hr.fer.zemris.java.gui.prim"}]

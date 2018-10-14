@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"hr.fer.zemris.java.hw07.shell.commands.namebuilder"}]

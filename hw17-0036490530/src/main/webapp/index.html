@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Gallery</title>
+       
+        <style>
+        	h1 {color:blue; font:50px; text-align:center}
+        	p {text-align:center; color:blue; margin-left:10px}
+       	    
+       	    #buttons{text-align:center;}
+       		.tagButton { margin-top: 10px; margin-left: 10px; background-color: cyan;}
+        	.tagButton:HOVER {font-style: italic; color: blue;}
+        	
+        	#thumbs{text-align:center}
+        	.thumbnailPicture{margin-top: 10px; margin-left:10px; margin-right:10px; margin-bottom:10px}
+       		.thumbnailPicture:HOVER{color:cyan; opacity:0.5}
+       		
+       		#pic{text-align:center}
+       		.fullPicture{ margin-top: 10px; margin-left:10px; margin-right:10px; margin-bottom:10px}
+        </style>
+       
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/htmlescaping.js"></script>
+        <script type="text/javascript">
+            $(document).ready(
+                    $.ajax(
+                              {
+                                  url: "rest/picturej",
+                                  dataType: "json",
+                                  success: function(data) {
+                                        let pictureTags = data.tags;
+                                        let html = "";
+                                        for(let i=0; i<pictureTags.length; i++) {
+                                            html += "<button type='button' class='tagButton' onclick='loadThumbnails(this.value)' value="+htmlEscape(pictureTags[i])+">"+htmlEscape(pictureTags[i])+"</button>";
+                                        }
+                                        $("#buttons").html(html);
+                                 }
+                               }
+            ));
+            
+
+            function loadThumbnails(tag){
+            	$.ajax(
+          			  {
+          				  url: "rest/picturej/tag/"+tag,
+ 
+          				  dataType: "json",
+          				  success: function(data) {
+          						let thumbs = data.thumbs; 
+          						let html = "";
+          						if(thumbs.length==0) {
+          							html = "No results..."
+          						} else {
+          							for(let i=0; i<thumbs.length; i++) {
+          								let imgSource = "servlets/picture?name="+htmlEscape(thumbs[i])+"&thumb=ok";
+          								//html += "<img src="+htmlEscape(imgSource)+" class='thumbnailPicture' onclick= '"+onClick+"'>";
+          								html += "<img src="+htmlEscape(imgSource)+" class='thumbnailPicture' onclick= 'loadFullPicture(\""+thumbs[i]+"\")'>";
+          							}
+          						}
+          						$("#thumbs").html(html);
+          				  }
+          			  }
+          			);
+            } 
+            
+            function loadFullPicture(name){
+            	$.ajax(
+            			  {
+            				  url: "rest/picturej/pic/"+name,
+   
+            				  dataType: "json",
+            				  success: function(data) {
+            						let picture = data; 
+            						let html = "";
+            						
+            						html += "<p>"+htmlEscape(picture.description)+"</p><p>Tags: "
+            						
+            						for(let i=0;i<data.tags.length;i++){
+            							html+= data.tags[i]+" ";
+            						}
+            						html += "</p>"
+            						
+            						let imgSource = "servlets/picture?name="+htmlEscape(picture.name)+"&thumb=n";
+
+            						html += "<img src="+htmlEscape(imgSource)+" class='fullPicture'>";
+            						
+            						$("#pic").html(html);
+            				  }
+            			  }
+            			);
+            }
+         
+        </script>
+    </head>
+    <body>
+   
+        <h1>Picture gallery</h1>
+       
+        <p>Click on the tag to filter images.</p>
+       
+        <div id="buttons">&nbsp;</div><br>
+        <div id="thumbs">&nbsp;</div><br>
+       	<div id="pic">&nbsp;</div>
+       	
+    </body>
+</html>

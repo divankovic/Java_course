@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"hr.fer.zemris.java.hw07.shell.commands.namebuilder","c":"NameBuilderParser","l":"getNameBuilder()"},{"p":"hr.fer.zemris.java.hw07.shell.commands.namebuilder","c":"NameBuilderParser","l":"NameBuilderParser(String)","url":"NameBuilderParser-java.lang.String-"}]

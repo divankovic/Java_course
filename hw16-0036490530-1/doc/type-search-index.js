@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"hr.fer.zemris.java.hw16.trazilica","l":"DocumentVector"},{"p":"hr.fer.zemris.java.hw16.trazilica","l":"Konzola"},{"p":"hr.fer.zemris.java.hw16.trazilica","l":"SearchResult"},{"p":"hr.fer.zemris.java.hw16.trazilica","l":"Util"}]

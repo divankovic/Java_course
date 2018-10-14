@@ -1,0 +1,10 @@
+1	The Beatles	https://www.youtube.com/watch?v=NCtzkaL2t_Y
+2	The Rolling Stones	https://www.youtube.com/watch?v=NzGFViwiUaA
+3	Dire Straits	https://www.youtube.com/watch?v=0fAQhSRLQnM
+4	Simon & Garfunkel	https://www.youtube.com/watch?v=9C1BCAgu2I8
+5	The Police	https://www.youtube.com/watch?v=OMOGaugKpzs
+6	Toto	https://www.youtube.com/watch?v=FTQbiNvZqaY
+7	Sting	https://www.youtube.com/watch?v=KLVq0IAzh1A
+8	Men At Work	https://www.youtube.com/watch?v=XfR9iY5y94s
+9	Phil Collins	https://www.youtube.com/watch?v=YkADj0TPrJA
+10	Bob Marley	https://www.youtube.com/watch?v=Mm7muPjevik

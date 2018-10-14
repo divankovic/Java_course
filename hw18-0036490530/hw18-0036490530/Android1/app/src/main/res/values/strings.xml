@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">OPJJ1</string>
+    <string name="input_numbers">Input numbers</string>
+    <string name="perform_operation">Perform operation</string>
+    <string name="input_denumerator">Input denumerator</string>
+    <string name="input_numerator">Input numerator</string>
+    <string name="send_content">Send content</string>
+    <string name="send_back">Send back</string>
+    <string name="return_message">Return message</string>
+    <string name="send_to">Send to:</string>
+    <string name="email">email</string>
+    <string name="title">Title</string>
+    <string name="ivan_fer_hr">ivan@fer.hr</string>
+    <string name="Message">Message</string>
+    <string name="send">SEND</string>
+    <string name="compose_email">Compose email</string>
+    <string name="not_decimal_error">Input numbers must be decimal numbers</string>
+    <string name="zero_division_error">Can\'t divide with 0.</string>
+    <string name="field_not_empty">Fields must not be empty</string>
+    <string name="invalid_email">Email is not in valid format.</string>
+    <string name="capital_start">Title must start with a capital letter.</string>
+    <string name="cant_send">Couldn\'t send email</string>
+</resources>

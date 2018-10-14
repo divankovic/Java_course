@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"hr.fer.zemris.java.hw04.custom.collections","l":"ArrayIndexedCollection"}]

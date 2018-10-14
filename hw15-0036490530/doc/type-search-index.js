@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"hr.fer.zemris.java.blog.web.servlets","l":"RegisterServlet"}]

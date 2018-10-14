@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"hr.fer.zemris.java.hw11.jnotepadpp","l":"JNotepadStatusBar"}]

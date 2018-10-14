@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+	<p>
+      {$="message" "" @tparamGet $}
+  </p>
+  <a href="/index2.html">Home<a/>
+</html>

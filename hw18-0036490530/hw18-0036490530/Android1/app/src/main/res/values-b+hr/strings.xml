@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">OPJJ1</string>
+    <string name="input_numbers">Unesite brojeve</string>
+    <string name="perform_operation">Izvrši operaciju</string>
+    <string name="input_denumerator">Unesite nazivnik</string>
+    <string name="input_numerator">Unesite brojnik</string>
+    <string name="send_content">Pošalji sadržaj</string>
+    <string name="send_back">Pošalji povratno</string>
+    <string name="return_message">Vrati poruku.</string>
+    <string name="send_to">Pošalji:</string>
+    <string name="email">email</string>
+    <string name="title">Naslov</string>
+    <string name="ivan_fer_hr">ivan@fer.hr</string>
+    <string name="Message">Poruka</string>
+    <string name="send">Pošalji</string>
+    <string name="compose_email">Pošalji email</string>
+    <string name="not_decimal_error">Uneseni brojevi moraju biti decimalni</string>
+    <string name="zero_division_error">Dijeljenje sa 0 nije moguće.</string>
+    <string name="field_not_empty">Polja ne smiju biti prazna.</string>
+    <string name="invalid_email">Email nije u ispravnom formatu.</string>
+    <string name="capital_start">Naslov mora započeti velikim sllovom.</string>
+    <string name="cant_send">Došlo je do greške prilikom slanja e-maila-a</string>
+</resources>

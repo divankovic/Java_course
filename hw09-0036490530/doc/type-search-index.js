@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"hr.fer.zemris.java.raytracer","l":"RayCasterParallel"},{"p":"hr.fer.zemris.java.raytracer","l":"RayCasterParallel.CastingJob"},{"p":"hr.fer.zemris.java.raytracer","l":"RayCasterParallel.ParallelRayTracerProducer"}]

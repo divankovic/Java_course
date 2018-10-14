@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"hr.fer.zemris.java.hw07.shell.commands.namebuilder","l":"NameBuilderParser"}]

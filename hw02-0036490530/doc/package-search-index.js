@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"hr.fer.zemris.java.custom.collecitons"},{"l":"hr.fer.zemris.java.custom.collections"},{"l":"hr.fer.zemris.java.custom.collections.demo"},{"l":"hr.fer.zemris.java.hw02"},{"l":"hr.fer.zemris.java.hw02.demo"}]

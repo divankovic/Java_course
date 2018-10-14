@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <style>
+   body {background-color: #{$="background" "00FF00" @tparamGet $};}
+  </style>
+ </head>
+ <body>
+  <p>
+      Some useful links:
+  </p>
+  
+  <ul>
+   <li><a href="/scripts/osnovni.smscr">Osnovni</a></li>
+   <li><a href="/scripts/brojPoziva.smscr">Broj poziva</a></li>
+   <li><a href="/scripts/fibonaccih.smscr">Fibonacci tablica</a></li>
+   <li><a href="/ext/HelloWorker">Hello</a></li>
+   <li><a href="/ext/CircleWorker">Krug</a></li>
+  <ul>
+  
+  <p>
+      Simple addition form:
+  </p>
+  
+  <form action="/calc" method="GET">
+   1.operand: <input type="text" pattern="-?\\d+" maxlength=10 required name="a"
+   			   title="Input must be a whole number."><br>
+   2.operand: <input type="text" pattern="-?\\d+" maxlength=10 required name="b"
+   			   title="Input must be a whole number."><br>
+   <input type="submit" value="Calculate">
+  </form>
+  
+  <p>
+      Background color changer:
+  </p>
+  
+  <form action="/setbgcolor" method="GET">
+  	<select name="bgcolor">
+  	 <option value="FFFFFF">White</option>
+  	 <option value="FF0000">Red</option>
+  	 <option value="00FF00">Green</option>
+  	 <option value="0000FF">Blue</option>
+  	 <option value="FFA500">Orange</option>
+  	 <option value="FFFF00">Yellow</option>
+  	</select>
+  	<input type="submit" value="Change background">
+  </form>
+  
+ </body>
+</html>

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"hr.fer.zemris.java.votingapp.dao"},{"l":"hr.fer.zemris.java.votingapp.dao.sql"},{"l":"hr.fer.zemris.java.votingapp.listeners"},{"l":"hr.fer.zemris.java.votingapp.model"},{"l":"hr.fer.zemris.java.votingapp.servlets"}]

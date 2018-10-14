@@ -1,0 +1,28 @@
+xxxx { dokument {$ FOR i "Joe \"Long\" Smith" 2 1 $} xxxx tekst {$ END $}
+Example \{$=1$}. Now actually write one {$=1$}
+
+{$ FOR sco_re "-1"10 "1" $}
+	
+	{$= i i * @sin "0.000" @decfmt $}
+	A tag follows {$= "Joe \"Long\" Smith"$}.
+	
+	{$ FOR sco_re "-1"10 "1" $}
+		{$ FOR sco_re "-1"10 "1" $}
+			{$= i i * @sin "0.000" @decfmt $}
+			A tag follows {$= "Joe \"Long\" Smith"$}.
+		{$END$}
+	
+		{$= i i * @sin "0.000" @decfmt $}
+		A tag follows {$= "Joe \"Long\" Smith"$}.
+	
+	{$END$}
+	{$= i i * @sin "0.000" @decfmt $}
+	A tag follows {$= "Joe \"Long\" Smith"$}.
+
+{$END$}
+
+xxxx { dokument {$ FOR i "Joe \"Long\" Smith" 2 1 $} xxxx tekst {$ END $}
+Example \{$=1$}. Now actually write one {$=1$}
+
+
+
